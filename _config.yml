@@ -1,0 +1,140 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'CNAME']
+
+
+# Site Settings
+title: "SlackScrape"
+email: "hello@slackscrape.com"
+description: "Get all the emails from Slack using SlackScrape extension"
+baseurl: ""
+url: "https://slackscrape.com"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-83415340-1"
+googleAnalyticsSiteUrl: "slackscrape.com"
+siteVerification: "XXXXXXXXX-wWpMYhFq-no"
+
+# Head
+metaKeywords: "slack, Emails, Names, Phone Nos, Skype IDs"
+twitterAccount: "@slackscrape"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ - {permalink: "/#features", text: "Features"}
+ - {permalink: "/#blog", text: "Blog"}
+ - {permalink: "/#working", text: "How it works"}
+ - {permalink: "/#subscribe", text: "Subscribe"}
+ - {permalink: "/#pricing", text: "Pricing"}
+bottomNavigationLinks:
+ - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg?utm_source=chrome-ntp-icon", text: "Add to Chrome"}
+rightNavigationButtons:
+ - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg?utm_source=chrome-ntp-icon", text: "Add to Chrome"}
+
+# Hero Block
+heroImage: "hero.jpg"
+heroTitle: "Get loads of Emails, <typeout> for free"
+eventDate: "Go get your customers now"
+typeoutTextValues: '"", "Names", "Phone Nos", "Skype IDs"'
+typeoutFallback: "Names"
+heroButtons:
+ - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg?utm_source=chrome-ntp-icon", text: "Add to Chrome"}
+ - {permalink: "/#pricing", text: "Pricing"}
+
+# About Block
+aboutTitle: "Features"
+aboutBlock:
+ - {title: "Emails", image: "email.jpg", text: "Gather contact information for hundreds or thousands of your prospective customers." }
+ - {title: "Export", image: "export.jpg", text: "Emails, names and other contacts. All in a format that's easy to analyse in Excel, Google Sheets, or to upload to your CRM." }
+ - {title: "Target", image: "target.jpg", text: "Target the right segment of potential customers by looking at their group" }
+
+# Statistic Block
+statisticBlockImage: "statistic.jpg"
+statisticBlock:
+ - {count: "1", specialCharacter: "M+", info: "users", detail: "for slack"}
+ - {count: "500", specialCharacter: "K+", info: "emails", detail: "from your country and beyond"}
+ - {count: "1", specialCharacter: "K+", info: "groups", detail: "with significant interaction"}
+ - {count: "100", specialCharacter: "K+", info: "customers", detail: "from potential groups"}
+
+# Blog Block
+latestNewsTitle: "Blog"
+
+# Venue Block
+venueBlockTitle: "How it works"
+venueBigImage: "screen_1.png"
+venueSmallImage1: "screen_2.png"
+venueSmallImage2: "screen.jpg"
+venueTitle: "Install the extension"
+venueFeatures: ["Login using a browser window", "Scan Top 100 mails.", "Export CSV file or copy contacts to your clipboard."]
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Subscribe for updates"
+subscribeAction: "https://swiftjuggler.us9.list-manage.com/subscribe/post?u=25c4f6156ec661e8554a65c29&amp;id=d42846ae9d"
+subscribeInfo: "Stay tuned! We have more to offer that will change the way we gather end users"
+
+# Tickets Block
+ticketsTitle: "Pricing"
+ticketsInfo: "Grab email and other contact information for less than 0.04$ per contact."
+ticketsOffers:
+ -
+  name: "Free"
+  price: "0.00"
+  priceCurrency: "$"
+  ribbon: "Free"
+  buyButtonLink: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg?utm_source=chrome-ntp-icon"
+  buyButtonText: "Add to Chrome"
+  ticketContentList: ["Works on any Slack Group", "100 emails per group"]
+ -
+  name: "Pro"
+  price: "<strike>29</strike> 9.99"
+  priceCurrency: "$"
+  ribbon: "-66%"
+  featured: true
+  buyButtonLink: "http://slackscrape.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Works on any Slack Group", "100 emails per group", "Unlimited emails for 10 groups"]
+ -
+  name: "Ultimate"
+  price: "49.99"
+  priceCurrency: "$"
+  buyButtonLink: "http://slackscrape.com/"
+  buyButtonText: "Buy Now"
+  ticketContentList: ["Works on any Slack Group", "Unlimited emails for Unlimited groups", "Have fun!"]
+
+# Footer
+socialLinks:
+ - {link: "https://plus.google.com/b/115892416243877019965", icon: "google-plus"}
+ - {link: "https://twitter.com/intent/user?screen_name=slackscrape", icon: "twitter"}
+ - {link: "https://facebook.com/SlackScrape-1754938191439096", icon: "facebook"}
+ - {permalink: "/feed.xml", icon: "rss"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "http://slackscrape.com", text: "SlackScrape.com"}
+   - {link: "https://slack.com", text: "Slack"}
+ -
+  title: "Contacts"
+  links:
+   - {link: "mailto:hello@slackscrape.com", text: "hello@slackscrape.com"}
+ -
+  title: "FAQ"
+  links:
+   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {permalink: "/tac/", text: "Terms & Conditions"}
+   - {permalink: "/pp/", text: "Privacy Policy"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "slackscrape"

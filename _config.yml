@@ -36,9 +36,9 @@ navigationLinks:
  - {permalink: "/#subscribe", text: "Subscribe"}
  - {permalink: "/#pricing", text: "Pricing"}
 bottomNavigationLinks:
- - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg?utm_source=chrome-ntp-icon", text: "Add to Chrome"}
+ - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg", text: "Add to Chrome"}
 rightNavigationButtons:
- - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg?utm_source=chrome-ntp-icon", text: "Add to Chrome"}
+ - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg", text: "Add to Chrome"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -47,7 +47,7 @@ eventDate: "Go get your customers now"
 typeoutTextValues: '"", "Names", "Phone Nos", "Skype IDs"'
 typeoutFallback: "Names"
 heroButtons:
- - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg?utm_source=chrome-ntp-icon", text: "Add to Chrome"}
+ - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg", text: "Add to Chrome"}
  - {permalink: "/#pricing", text: "Pricing"}
 
 # About Block
@@ -91,7 +91,7 @@ ticketsOffers:
   price: "0.00"
   priceCurrency: "$"
   ribbon: "Free"
-  buyButtonLink: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg?utm_source=chrome-ntp-icon"
+  buyButtonLink: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg"
   buyButtonText: "Add to Chrome"
   ticketContentList: ["Works on any Slack Group", "100 emails per group"]
  -
@@ -100,14 +100,14 @@ ticketsOffers:
   priceCurrency: "$"
   ribbon: "-66%"
   featured: true
-  buyButtonLink: "http://slackscrape.com/"
+  buyButtonLink: "https://gum.co/wZce"
   buyButtonText: "Buy Now"
   ticketContentList: ["Works on any Slack Group", "100 emails per group", "Unlimited emails for 10 groups"]
  -
   name: "Ultimate"
   price: "49.99"
   priceCurrency: "$"
-  buyButtonLink: "http://slackscrape.com/"
+  buyButtonLink: "https://gum.co/WnVrA"
   buyButtonText: "Buy Now"
   ticketContentList: ["Works on any Slack Group", "Unlimited emails for Unlimited groups", "Have fun!"]
 

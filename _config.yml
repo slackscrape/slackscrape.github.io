@@ -69,10 +69,6 @@ statisticBlock:
 latestNewsTitle: "Blog"
 
 # Venue Block
-venueBlockTitle: "How it works"
-venueBigImage: "screen_2.png"
-venueSmallImage1: "screen_1.png"
-venueSmallImage2: "screen.png"
 venueTitle: "Install the extension"
 venueFeatures: ["Login using a browser window", "Scan Top 100 mails.", "Export CSV file or copy contacts to your clipboard."]
 

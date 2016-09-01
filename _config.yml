@@ -102,7 +102,7 @@ ticketsOffers:
   featured: true
   buyButtonLink: "https://gum.co/wZce"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Works on any Slack Group", "100 emails per group", "Unlimited emails for 10 groups"]
+  ticketContentList: ["Works on any Slack Group", "Unlimited emails upto 10 groups"]
  -
   name: "Ultimate"
   price: "49.99"

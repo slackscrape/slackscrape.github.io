@@ -69,8 +69,9 @@ statisticBlock:
 latestNewsTitle: "Blog"
 
 # Venue Block
-venueTitle: "Install the extension"
-venueFeatures: ["Login using a browser window", "Scan Top 100 mails.", "Export CSV file or copy contacts to your clipboard."]
+# venueBlockTitle: "How it works"
+# venueTitle: "Install the extension"
+# venueFeatures: ["Login using a browser window", "Scan Top 100 mails.", "Export CSV file or copy contacts to your clipboard."]
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
@@ -105,7 +106,7 @@ ticketsOffers:
   priceCurrency: "$"
   buyButtonLink: "https://gum.co/WnVrA"
   buyButtonText: "Buy Now"
-  ticketContentList: ["Works on any Slack Group", "Unlimited emails for Unlimited groups", "Have fun!"]
+  ticketContentList: ["Works on any Slack Group", "Unlimited emails for Unlimited groups"]
 
 # Footer
 socialLinks:

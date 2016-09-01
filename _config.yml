@@ -88,7 +88,6 @@ ticketsOffers:
   price: "0.00"
   priceCurrency: "$"
   ribbon: "Free"
-  buyButtonLink: ""
   buyButtonText: "Add to Chrome"
   ticketContentList: ["Works on any Slack Group", "100 emails per group"]
  -

@@ -18,12 +18,12 @@
         <ul id="bottom-navlinks" class="bottom-navlinks visible-xs">
             {% for bottomNavigationLink in site.bottomNavigationLinks %}
             <li>
-                <a href="{% if bottomNavigationLink.permalink != null %} {{ bottomNavigationLink.permalink | prepend: site.baseurl }} {% else %} # {% endif %}" {% if bottomNavigationLink.link != null %}onclick="chrome.webstore.install()" id="install-button"{% endif %}>{{ bottomNavigationLink.text }}</a>
+                <a {% if bottomNavigationLink.link != null %}onclick="chrome.webstore.install()" id="install-button"{% endif %}>{{ bottomNavigationLink.text }}</a>
             </li>
             {% endfor %}
         </ul>
         {% for rightNavigationButton in site.rightNavigationButtons %}
-        <a href="#pricing" class="right-nav-button right-nav-button-hidden btn btn-primary waves-effect waves-button waves-light waves-float pull-right hidden-xs hidden-sm" {% if rightNavigationButton.link != null %}onclick="chrome.webstore.install()" id="install-button"{% endif %}>
+        <a class="right-nav-button right-nav-button-hidden btn btn-primary waves-effect waves-button waves-light waves-float pull-right hidden-xs hidden-sm" {% if rightNavigationButton.link != null %}onclick="chrome.webstore.install()" id="install-button"{% endif %}>
             {{ rightNavigationButton.text }}
         </a>
         {% endfor %}

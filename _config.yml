@@ -38,7 +38,7 @@ navigationLinks:
 bottomNavigationLinks:
  - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg", text: "Add to Chrome"}
 rightNavigationButtons:
- - {text: "Add to Chrome"}
+ - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg", text: "Add to Chrome"}
 
 # Hero Block
 heroImage: "hero.jpg"

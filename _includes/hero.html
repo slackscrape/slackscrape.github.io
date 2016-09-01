@@ -8,7 +8,7 @@
             <h1>{{ heroText[0] }}<span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>{{ heroText[1] }}</h1>
             <p>{{ site.eventDate }}</p>
             {% for button in site.heroButtons %}
-            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}onclick="chrome.webstore.install()" id="install-button"{% endif %}>{{ button.text }}</a>
+            <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
             {% endfor %}
         </div>
     </div>
@@ -19,7 +19,7 @@
     </a>
     
         <!--<img class="screen-left" src="https://s3.amazonaws.com/slackscrapemedia/screen/screen_1.png" height="500" alt="SlackScrape" data-pin-nopin="true">-->
-        <img class="screen" src="https://s3.amazonaws.com/slackscrapemedia/screen/screen_1.png" height="500" alt="SlackScrape" data-pin-nopin="true">
+        <!--<img class="screen" src="https://s3.amazonaws.com/slackscrapemedia/screen/screen_1.png" height="500" alt="SlackScrape" data-pin-nopin="true">-->
     <img class="badge" src="img/webstore/storebadge.png" alt="206x58 Chrome Web Store badge, no border" data-pin-nopin="true">    
     </div>
 </section>

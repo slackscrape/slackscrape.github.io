@@ -42,8 +42,8 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "Get loads of Emails, <typeout> for free"
-eventDate: "Go get your customers now"
+heroTitle: "Get loads of Emails from Slack, <typeout> for free"
+eventDate: "Grow your customers base for free now!"
 typeoutTextValues: '"", "Names", "Phone Nos", "Skype IDs"'
 typeoutFallback: "Names"
 heroButtons:
@@ -53,9 +53,9 @@ heroButtons:
 # About Block
 aboutTitle: "Features"
 aboutBlock:
- - {title: "Emails", image: "email.jpg", text: "Gather contact information for hundreds or thousands of your prospective customers." }
- - {title: "Export", image: "export.jpg", text: "Emails, names and other contacts. All in a format that's easy to analyse in Excel, Google Sheets, or to upload to your CRM." }
- - {title: "Target", image: "target.jpg", text: "Target the right segment of potential customers by looking at their group" }
+ - {title: "Emails", image: "email.jpg", text: "Thousands of your prospective customer's emails can be accessed from various slack groups." }
+ - {title: "Export", image: "export.jpg", text: "You can export Emails, Names, Phone Nos, Skype IDs into CSV formats for your CRMs" }
+ - {title: "Target", image: "target.jpg", text: "Target the right segment of potential customers by looking at their slack group relevance" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -81,7 +81,7 @@ subscribeInfo: "Stay tuned! We have more to offer that will change the way we ga
 
 # Tickets Block
 ticketsTitle: "Pricing"
-ticketsInfo: "Grab email and other contact information for less than 0.04$ per contact."
+ticketsInfo: "Your potential customers are out there and we help you reach them real quick, buy the Ultimate if you want scale real quick."
 ticketsOffers:
  -
   name: "Free"

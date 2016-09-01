@@ -3,7 +3,7 @@
         $(window).load(function() {
             $('#st-container').removeClass('disable-scrolling');
             $('#loading-animation').fadeOut();
-            $('#preloader').delay(350).fadeOut(800);
+            $('#preloader').delay(10).fadeOut(10);
             initGooglePlus();
             equalheight('.same-height');
         });
@@ -159,48 +159,6 @@
             if (container.hasClass('st-menu-open')) {
                 container.removeClass('st-menu-open');
             }
-        });
-
-        $('.track-header').each(function() {
-            var slot = $(this).closest('.schedule-table').find('.slot').first();
-            var scheduleFirstSlotText;
-            while (scheduleFirstSlotText === undefined) {
-                scheduleFirstSlotText = slot.data('slotDetail');
-                slot = slot.next();
-            }
-            $(this).find('.slot-detail').html(scheduleFirstSlotText);
-        });
-
-        $('#post-section .post-body p').each(function() {
-            if ($(this).find('.feature-image').length) {
-                var url = $(this).find('.feature-image').prop('src');
-                $('#top-section').css('background-image', 'url(' + url + ')').addClass('enable-overlay');
-            }
-        });
-
-        $('.slider').each(function() {
-            $(this).find('.slider-item').first().addClass('slider-current-item').removeClass('hidden');
-            if ($(this).find('.slider-item').length > 1) {
-                $(this).closest('.speaker-item').find('.slider-next-item').removeClass('hidden');
-            }
-        });
-        $('.slider-next-item').click(function() {
-            var slider = $(this).closest('div');
-            var elem = slider.find('.slider-current-item').next();
-            if (elem.length) {
-                elem.addClass('slider-current-item').removeClass('hidden');
-                slider.find('.slider-current-item').first().removeClass('slider-current-item').addClass('hidden');
-            } else {
-                slider.find('.slider-item').first().addClass('slider-current-item').removeClass('hidden');
-                slider.find('.slider-current-item').last().removeClass('slider-current-item').addClass('hidden');
-            }
-        });
-        $('.modal').on('hidden.bs.modal', function () {
-            var iframe = $(this).find('iframe');
-            iframe.attr('src', iframe.attr('src'));
-        });
-        $('.slot').click(function() {
-            location.hash = $(this).attr('id');
         });
 
     });

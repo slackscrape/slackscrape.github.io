@@ -32,9 +32,9 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/#features", text: "Features"}
  - {permalink: "/#blog", text: "Blog"}
- - {permalink: "/#working", text: "How it works"}
  - {permalink: "/#subscribe", text: "Subscribe"}
  - {permalink: "/#pricing", text: "Pricing"}
+#  - {permalink: "/#working", text: "How it works"}
 bottomNavigationLinks:
  - {link: "https://chrome.google.com/webstore/detail/slack-scrape/loohaedlfkajioibocdedelgfhdenhdg", text: "Add to Chrome"}
 rightNavigationButtons:

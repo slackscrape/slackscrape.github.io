@@ -21,7 +21,7 @@
 						{% if ticketsOffer.soldOut == true %}
 						<span class="button disabled">{{ ticketsOffer.soldOutText }}</span>
 						{% elsif ticketsOffer.disabled != true %}
-						<a class="button" href="{% if ticketsOffer.buyButtonLink != null %} {{ ticketsOffer.buyButtonLink }} {% else %} #pricing {% endif %}" onclick="chrome.webstore.install()" id="install-button">{{ ticketsOffer.buyButtonText }}</a>
+						<a class="button" href="{% if ticketsOffer.buyButtonLink != null %} {{ ticketsOffer.buyButtonLink }} {% else %} #pricing {% endif %}" onclick="chrome.webstore.install(); fbq('track', 'Lead');" id="install-button">{{ ticketsOffer.buyButtonText }}</a>
 						{% else %}
 		           		{% assign ticketValidFrom = ticketsOffer.validFrom | split: "T" %}
 						<span class="button disabled fallback">Ticket sales will begin on {{ ticketValidFrom[0] | date: "%-d %B %Y"}} {{ ticketValidFrom[1] }}</span>

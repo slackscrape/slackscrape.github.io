@@ -5,23 +5,18 @@
     <div class="content-wrapper">
         
         <div class="col-lg-8 col-lg-offset-2 animated hiding" data-animation="fadeInUp" data-delay="0">
-            <h3>Visit these slack groups</h3>
+            <h3>We can scrape these slack groups and more</h3>
 
-<div class="container">
-    <div class="row">
-        {% for group in site.data.slack_group %}
-        <div class="col-md-4 col-xs-6">
-            <div class="card" style="height:275px">
-                <div class="card-block">
-                    <h5 class="card-title" style="color: #333">{{ group.name }}</h5>
+{% for group in site.data.slack_group %}
+
+<div class="col-md-4">
+<div class="card card-block" style="height:225px">
+  <h5 class="card-title" style="color: #333">{{ group.name }}</h5>
                     <p class="card-text" style="color: #333">{{ group.desc }}</p>
                     <a href="{{ group.link }}" target="_blank" class="btn btn-primary">Join the group</a>
-                </div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
 </div>
+</div>
+{% endfor %}
 
             
         </div>
